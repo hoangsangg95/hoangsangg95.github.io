@@ -1,0 +1,122 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.jc {
+    justify-content: center;
+}
+.je {
+    justify-content: space-evenly;
+}
+
+.container {
+    height: 700px;
+    padding-top: 20px;
+}
+.logo {
+    display: block;
+    background-color: #8db1ab;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 30px;
+    margin-bottom: 10px;  
+}
+.menu-items {
+    width: 80px;
+    text-align: center;
+
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 50px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.frow{
+    flex-direction: row;
+}
+
+.pic {
+    height: 200px;
+    width: calc((100% - 45px) / 4);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+.pic11 {
+    background-image: url(../homework/anhbaitap/r11.jpg);
+}
+.pic12 {
+    background-image: url(../homework/anhbaitap/r12.jpg);
+}
+.pic13 {
+    background-image: url(../homework/anhbaitap/r13.jpg);
+}
+.pic14 {
+    background-image: url(../homework/anhbaitap/r14.jpg);
+}
+.pic21 {
+    background-image: url(../homework/anhbaitap/r21.jpg);
+}
+.pic22 {
+    background-image: url(../homework/anhbaitap/r22.jpg);
+}
+.pic23 {
+    background-image: url(../homework/anhbaitap/r23.jpg);
+}
+.pic24 {
+    background-image: url(../homework/anhbaitap/r24.jpg);
+}
+.pic31 {
+    background-image: url(../homework/anhbaitap/r31.jpg);
+}
+.pic32 {
+    background-image: url(../homework/anhbaitap/r32.jpg);
+}
+.pic33 {
+    background-image: url(../homework/anhbaitap/r33.jpg);
+}
+.pic34 {
+    background-image: url(../homework/anhbaitap/r34.jpg);
+}
+.fcontainer {
+    width: 400px;
+    /* background-color: grey; */
+    padding: 10px;
+}
+.footermenu {
+    width: 100px;
+}
+.nav {
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav-item {
+    padding: 8px;
+}
+.end {
+    align-items: flex-end;
+}
+/* .footerlogo {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: grey;
+    text-align: center;
+} */
