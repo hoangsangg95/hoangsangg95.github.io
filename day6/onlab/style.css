@@ -1,0 +1,20 @@
+/* table {
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+td {
+    padding: 20px;
+}
+.pic--user {
+    display: flex;
+    background-image: url(../onlab/p1-icon.jpeg);
+
+} */
