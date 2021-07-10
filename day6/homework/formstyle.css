@@ -40,14 +40,15 @@ h1 {
     padding-right: 0px;
     border-radius: 10px;
     color: white;
+    padding-top: 200px;
 }
 .form-group {
     flex-grow: 1;
     height: 810px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
+
 p {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -62,8 +63,6 @@ h3 {
     outline: none;
     resize: none;
     height: 60px;
-    padding-bottom: ;
-    margin-top: 5px;
     border: 0;
     border-bottom: 1px solid rgb(164, 164, 164) ;
     
@@ -91,5 +90,4 @@ h3 {
 
 .text-form {
     text-align: center;
-
-}}
+}
